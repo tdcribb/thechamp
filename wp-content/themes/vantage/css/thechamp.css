@@ -1,0 +1,41 @@
+header#masthead hgroup {padding-top:25px; padding-bottom:25px;}
+.main-navigation ul li:hover > a {background-color:#800;}
+.main-navigation ul ul li:hover > a {background-color:#800;}
+
+#content ul.products {list-style: none;}
+#content ul.products li {margin-bottom:25px; margin-top:25px; position:relative; float:left; width:100%; border-bottom:1px solid #efefef; padding-bottom:10px;}
+#content ul.products li a {text-decoration:none; position:relative; float:left; width:100%;}
+#content ul.products li a span.onsale {color:#800; font-size:20px; text-decoration:none;}
+#content ul.products li a img {position:relative; float:left; margin-right:50px; margin-bottom:10px;}
+#content ul.products li a h3 { margin-bottom:5px; font-size:18px;}
+#content ul.products li a span.price {margin-top:20px;}
+#content ul.products li a.button {margin-top:15px; padding:10px; position:relative; float:left;}
+
+#content .product {margin-top:20px;}
+#content .product span.onsale {color:#800; font-size:16px;}
+#content .product .summary {padding-bottom:25px; border-bottom:1px solid #999; margin-bottom:20px;}
+#content .product .summary .cart .button {padding:10px;}
+#content .product .related h2 {color:#666; text-decoration:underline; font-size:16px;}
+
+aside.widget {padding:2px; background:#efefef;}
+#pg-home-1 .panel {background:#efefef;}
+#pg-home-1 .panel .widget-title, #pg-home-1 .panel .textwidget {text-align:center;}
+#pg-home-1 .panel .widget-title {padding-top:10px; padding-bottom:10px; border-bottom:1px solid #999; background:#999; color:#fff;}
+
+article.post .entry-main .entry-header .entry-thumbnail img.attachment-post-thumbnail {width:150px;}
+
+#content .woocommerce .cart thead tr th {text-align:center;}
+#content .woocommerce .cart tbody tr.cart_item td {vertical-align:middle; border:1px solid #efefef; text-align:center;}
+#content .woocommerce .cart tbody tr.cart_item td.product-remove a {color:#800;}
+#content .woocommerce .cart tbody tr td.actions input.button {margin-top:25px;}
+#content .woocommerce .checkout .col-1, #content .woocommerce .checkout .col-2 {margin-bottom:25px; padding-bottom:25px; border-bottom:2px solid #999;}
+#content .woocommerce .checkout .col-1 .woocommerce-billing-fields p {width:50%;}
+#content .woocommerce .checkout .col-1 .woocommerce-billing-fields p label {width:100%;}
+#content .woocommerce .checkout .col-1 .woocommerce-billing-fields p input, #content .woocommerce .checkout .col-1 .woocommerce-billing-fields p select {width:100%;}
+#content .woocommerce .checkout .col-2 .woocommerce-shipping-fields p textarea {width:100%;}
+
+#content .woocommerce .checkout #order_review table tbody tr td {border:1px solid #efefef;}
+#content .woocommerce .checkout #order_review table tr td {text-align:left;}
+#content .woocommerce .checkout #order_review table.shop_table {margin-bottom:20px;}
+
+

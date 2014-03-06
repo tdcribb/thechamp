@@ -1,0 +1,1 @@
+<div itemscope itemtype="http://schema.org/Book" id="post-<?php the_ID(); ?>" class="mbt-book">

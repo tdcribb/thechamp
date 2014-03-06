@@ -1,0 +1,636 @@
+/*---------------------------------------------------------*/
+/* General Book Styling                                    */
+/*---------------------------------------------------------*/
+
+#mbt-container .mbt-book {
+	clear: both;
+	padding-bottom: 10px;
+	font-family: Helvetica, sans-serif
+}
+
+#mbt-container .mbt-book .mbt-book-right {
+	float: left;
+	width: 75%;
+}
+
+#mbt-container .mbt-book .mbt-affiliate-disclaimer,
+#mbt-container .mbt-book .mbt-affiliate-disclaimer a {
+	color: gray;
+	font-size: 10px;
+	font-style: italic;
+}
+
+#mbt-container .mbt-book .mbt-affiliate-disclaimer {
+	padding: 10px 0px;
+	clear: both;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Breadcrumbs                                             */
+/*---------------------------------------------------------*/
+
+#mbt-container .mbt-breadcrumbs {
+	padding: 0px 0px 10px 0px;
+	color: #666;
+	font-family: Helvetica, sans-serif;
+}
+
+#mbt-container .mbt-breadcrumbs a {
+	color: #666;
+	text-decoration: none;
+	border: none;
+}
+
+#mbt-container .mbt-breadcrumbs a:hover {
+	color: #333;
+	text-decoration: underline;
+	border: none;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Book Images                                             */
+/*---------------------------------------------------------*/
+
+#mbt-container .mbt-book .mbt-book-images {
+	float: left;
+	width: 25%;
+}
+
+#mbt-container .mbt-book .mbt-book-images .mbt-book-image {
+	width: 100%;
+	border-radius: 0px;
+	box-shadow: none;
+	border: none;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Book Title                                              */
+/*---------------------------------------------------------*/
+
+#mbt-container .mbt-book .mbt-book-title {
+	clear: none;
+	margin: 0 0 0 33px;
+	padding: 0;
+
+	color: #484949;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1.3;
+	background: none;
+}
+
+#mbt-container .mbt-book .mbt-book-title a {
+	color: #484949;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	border: none;
+}
+
+#mbt-container .mbt-book .mbt-book-title a:hover {
+	color: #484949;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+	border: none;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Book Price                                              */
+/*---------------------------------------------------------*/
+#mbt-container .mbt-book .mbt-book-price {
+	margin: 10px 0px 10px 33px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #484949;
+}
+
+#mbt-container .mbt-book .mbt-book-price .old-price  {
+	text-decoration: line-through;
+	color: #AEAEAE;
+	margin-right: 10px;
+}
+
+#mbt-container .mbt-book .mbt-book-price .new-price  {
+	color: #484949;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Book Meta                                              */
+/*---------------------------------------------------------*/
+#mbt-container .mbt-book .mbt-book-meta {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-left: 33px;
+}
+
+#mbt-container .mbt-book .mbt-book-meta .meta-title {
+	font-weight: bold;
+}
+
+#mbt-container .mbt-book .mbt-book-meta a {
+	font-weight: 600;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Book Blurb                                              */
+/*---------------------------------------------------------*/
+#mbt-container .mbt-book .mbt-book-blurb {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background: white;
+	border: 1px solid #E0E2E2;
+
+	font-size: 14px;
+	color: #484949;
+	line-height: 21px;
+
+	margin: 10px 0px 0px 10px;
+	padding: 15px 23px;
+	min-height: 50px;
+}
+
+#mbt-container .mbt-book .mbt-book-blurb a {
+	color: #484949;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#mbt-container .mbt-book .mbt-book-blurb a:hover {
+	text-decoration: underline;
+}
+
+#mbt-container .mbt-book a.mbt-book-sample {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 14px;
+	vertical-align: middle;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+	border: 1px solid #345873;
+	border-radius: 5px;
+
+	background-color: #36738d;
+	background-image: -moz-linear-gradient(top,  #36738d 0%, #2f5a79 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#36738d), color-stop(100%,#2f5a79));
+	background-image: -webkit-linear-gradient(top,  #36738d 0%,#2f5a79 100%);
+	background-image: -o-linear-gradient(top,  #36738d 0%,#2f5a79 100%);
+	background-image: -ms-linear-gradient(top,  #36738d 0%,#2f5a79 100%);
+	background-image: linear-gradient(to bottom,  #36738d 0%,#2f5a79 100%);
+
+	-webkit-box-shadow: inset 1px 1px 0 rgba(141,184,211,0.7);
+	box-shadow: inset 1px 1px 0 rgba(141,184,211,0.7);
+
+	display: inline-block;
+	margin: 0;
+	margin-top: 10px;
+	padding: 6px 15px;
+	min-width: 70px;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Buy Buttons                                             */
+/*---------------------------------------------------------*/
+
+#mbt-container .mbt-book .mbt-book-buybuttons {
+	margin: 15px 0px 0px 20px;
+}
+
+#mbt-container .mbt-book .mbt-book-buybuttons .mbt-book-buybutton  {
+	width: auto;
+	float: left;
+	clear: none;
+	padding: 5px 10px 0px 0px;
+}
+
+#mbt-container .mbt-book .mbt-book-buybuttons .mbt-book-buybutton img {
+	background: transparent;
+	border: none;
+	height: auto;
+	width: auto;
+	border-radius: 0px;
+	box-shadow: none;
+	vertical-align: bottom;
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+}
+
+#mbt-container .mbt-book .mbt-book-buybuttons-textonly  {
+	display: block;
+	float: left;
+	clear: both;
+	margin: 15px 0px 0px 0px;
+}
+
+#mbt-container .mbt-book .mbt-book-buybuttons-textonly h3  {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Book Overview                                           */
+/*---------------------------------------------------------*/
+
+#mbt-container .mbt-book .mbt-book-overview {
+	width: 100%;
+	clear: both;
+	float: left;
+	border-top: 1px solid #E0E2E2;
+	padding-top: 20px;
+	margin-top: 25px;
+
+	font-size: 14px;
+	line-height: 21px;
+}
+
+#mbt-container .mbt-book .mbt-book-overview .mbt-book-overview-title {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+
+	font-size: 25px;
+	color: black;
+	font-weight: normal;
+	line-height: 1.3;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Book Social Media                                       */
+/*---------------------------------------------------------*/
+
+#mbt-container .mbt-book .mbt-book-socialmedia-bar {
+	clear: both;
+	padding-top: 10px;
+}
+
+#mbt-container .mbt-book .mbt-book-socialmedia-badges {
+	float: right;
+	padding-left: 5px;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Book Series                                             */
+/*---------------------------------------------------------*/
+
+#mbt-container .mbt-book .mbt-book-series {
+	font-size: 13px;
+
+	background: #F8F8F8;
+	border: 1px solid #E1E3E3;
+	border-radius: 2px;
+
+	margin: 15px 10px 5px 10px;
+	padding: 15px 20px;
+}
+
+#mbt-container .mbt-book .mbt-book-series .mbt-book-series-title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #484949;
+}
+
+#mbt-container .mbt-book .mbt-book-series .mbt-book {
+	display: inline-block;
+	padding: 15px 20px 5px 0px;
+	margin: 0px;
+	text-align: center;
+	float: left;
+	clear: none;
+	border: none;
+	height: 175px;
+	width: 120px;
+	overflow: hidden;
+	box-sizing: content-box;
+}
+
+#mbt-container .mbt-book .mbt-book-series .mbt-book .mbt-book-title {
+	font-size: 14px;
+	font-weight: bold;
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	width: 120px;
+	height: 55px;
+	overflow: hidden;
+}
+
+#mbt-container .mbt-book .mbt-book-series .mbt-book .mbt-book-title a {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#mbt-container .mbt-book .mbt-book-series .mbt-book .mbt-book-title a:hover {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#mbt-container .mbt-book .mbt-book-series .mbt-book .mbt-book-images {
+	margin: 10px;
+}
+
+#mbt-container .mbt-book .mbt-book-series .mbt-book .mbt-book-images a {
+	border: none;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Goodreads Box                                           */
+/*---------------------------------------------------------*/
+#mbt-container .mbt-book #goodreads-widget {
+	font-family: georgia, serif;
+	background-color: white;
+	margin-top: 30px;
+	padding: 20px;
+}
+#mbt-container .mbt-book #goodreads-widget h1 {
+	font-weight:normal;
+	font-size: 16px;
+	border-bottom: 1px solid #BBB596;
+	margin-bottom: 0;
+	margin: 0px;
+	padding: 0px;
+	background: 0px;
+}
+#mbt-container .mbt-book #goodreads-widget a {
+	text-decoration: none;
+	border: none;
+	color:#660;
+	margin: 0px;
+	padding: 0px;
+	background: 0px;
+}
+#mbt-container .mbt-book #goodreads-widget a:hover { text-decoration: underline; }
+#mbt-container .mbt-book #goodreads-widget a:active {
+	color:#660;
+}
+#mbt-container .mbt-book #gr_footer {
+	width: 100%;
+	border-top: 1px solid #BBB596;
+	text-align: right;
+}
+#mbt-container .mbt-book #goodreads-widget .gr_branding{
+	color: #382110;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+#mbt-container .mbt-book #goodreads-widget iframe {
+	width: 100%;
+}
+
+/*---------------------------------------------------------*/
+/* Book Archive Styling                                    */
+/*---------------------------------------------------------*/
+
+#mbt-container .mbt-book-archive-header .mbt-book-archive-image {
+	float: left;
+	width: 15%;
+	padding: 0 24px 25px 0;
+	border-radius: 0px;
+	box-shadow: none;
+	border: none;
+	background: transparent;
+	margin: 0;
+}
+
+#mbt-container .mbt-book-archive-header .mbt-book-archive-title {
+	clear: none;
+	width: 75%;
+	float: left;
+	padding: 0px 0px 15px 0px;
+	margin: 0px;
+	background: transparent;
+
+	color: #484949;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.3;
+}
+
+#mbt-container .mbt-book-archive-header .mbt-book-archive-description {
+	clear: none;
+	width: 75%;
+	float: left;
+
+	font-size: 14px;
+	line-height: 1.5;
+
+	padding: 0px 0px 25px 0px;
+	position: relative;
+}
+
+#mbt-container .mbt-book-archive {
+	clear: both;
+}
+
+#mbt-container .mbt-book-archive .mbt-book {
+	margin-bottom: 40px;
+	border-bottom: 1px solid #E0E2E2;
+}
+
+#mbt-container .mbt-book-archive-pagination {
+	text-align: center;
+}
+
+#mbt-container .mbt-book-archive-pagination a {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 14px;
+	vertical-align: middle;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+	border: 1px solid #345873;
+	border-radius: 5px;
+
+	background-color: #36738d;
+	background-image: -moz-linear-gradient(top,  #36738d 0%, #2f5a79 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#36738d), color-stop(100%,#2f5a79));
+	background-image: -webkit-linear-gradient(top,  #36738d 0%,#2f5a79 100%);
+	background-image: -o-linear-gradient(top,  #36738d 0%,#2f5a79 100%);
+	background-image: -ms-linear-gradient(top,  #36738d 0%,#2f5a79 100%);
+	background-image: linear-gradient(to bottom,  #36738d 0%,#2f5a79 100%);
+
+	-webkit-box-shadow: inset 1px 1px 0 rgba(141,184,211,0.7);
+	box-shadow: inset 1px 1px 0 rgba(141,184,211,0.7);
+
+	display: inline-block;
+	margin: 0px 5px 0px 0px;
+	padding: 6px 8px;
+
+}
+
+#mbt-container .mbt-book-archive-pagination a:hover {
+	text-decoration: underline;
+}
+
+#mbt-container .mbt-book-archive-pagination span {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 14px;
+	vertical-align: middle;
+	color: #214756;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+	display: inline-block;
+	margin: 0px 5px 0px 0px;
+	padding: 6px 8px;
+}
+
+#mbt-container .mbt-book-archive-pagination .mbt-book-archive-pagination-next {
+	margin-left: 5px;
+	padding: 6px 15px;
+}
+
+#mbt-container .mbt-book-archive-pagination .mbt-book-archive-pagination-previous {
+	margin-right: 10px;
+	padding: 6px 15px;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Widget Styling                                          */
+/*---------------------------------------------------------*/
+
+.mbt-featured-book-widget {
+	padding: 6px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+.mbt-featured-book-widget .mbt-featured-book-widget-book {
+	padding-bottom: 30px;
+}
+
+.mbt-featured-book-widget .mbt-book-title {
+	margin: 0 5px 15px 0;
+	text-align: left;
+}
+
+.mbt-featured-book-widget .mbt-book-title a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	border: none;
+}
+
+.mbt-featured-book-widget .mbt-book-title a:hover {
+	color: black;
+	text-decoration: underline;
+	font-size: 18px;
+	border: none;
+}
+
+.mbt-featured-book-widget .mbt-book-images a {
+	border: none;
+}
+
+.mbt-featured-book-widget .mbt-book-images .mbt-book-image {
+	width: 60%;
+	margin: 0 0 15px 0;
+	border-radius: 0px;
+	box-shadow: none;
+	border: none;
+	background: transparent;
+	padding: 0;
+}
+
+.mbt-featured-book-widget .mbt-book-images .mbt-book-image.medium {
+	width: 45%;
+}
+
+.mbt-featured-book-widget .mbt-book-images .mbt-book-image.small {
+	width: 30%;
+}
+
+.mbt-featured-book-widget .mbt-book-blurb {
+	font-size: 14px;
+	text-align: left;
+	margin: 0 0 10px 0;
+	padding: 0;
+	background: none;
+	border: none;
+}
+
+.mbt-featured-book-widget .mbt-book-blurb .read-more {
+	display: block;
+	padding-top: 10px;
+	text-align: right;
+}
+
+.mbt-featured-book-widget .mbt-book-buybuttons {
+	display: inline-block;
+	text-align: left;
+}
+
+.mbt-featured-book-widget .mbt-book-buybuttons .mbt-book-buybutton  {
+	width: auto;
+	float: left;
+	clear: none;
+	padding: 5px 10px 0px 0px;
+}
+
+.mbt-featured-book-widget .mbt-book-buybuttons .mbt-book-buybutton img {
+	background: transparent;
+	border: none;
+	height: auto;
+	width: auto;
+	border-radius: 0px;
+	box-shadow: none;
+	vertical-align: bottom;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+body.mybooktable .post-meta,
+body.mybooktable .post-info,
+body.mybooktable .post-meta {
+	display: none;
+}
+
+body.mybooktable .entry-meta,
+body.mybooktable .entry-info,
+body.mybooktable .entry-meta {
+	display: none;
+}
