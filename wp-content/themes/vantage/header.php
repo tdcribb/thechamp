@@ -18,6 +18,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php wp_head(); ?>
 	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/vantage/css/thechamp.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/vantage/css/thechamp-mobile.css" />
 </head>
 
 <body <?php body_class(); ?>>

@@ -1,6 +1,9 @@
 header#masthead hgroup {padding-top:25px; padding-bottom:25px;}
 .main-navigation ul li:hover > a {background-color:#800;}
 .main-navigation ul ul li:hover > a {background-color:#800;}
+header#masthead .main-navigation ul li a .icon {display:none;}
+#theme-attribution {display:none;}
+.metaslider .caption-wrap .caption {padding-top:10px; padding-bottom:10px; font-size:20px;}
 
 #content ul.products {list-style: none;}
 #content ul.products li {margin-bottom:25px; margin-top:25px; position:relative; float:left; width:100%; border-bottom:1px solid #efefef; padding-bottom:10px;}
@@ -23,6 +26,7 @@ aside.widget {padding:2px; background:#efefef;}
 #pg-home-1 .panel .widget-title {padding-top:10px; padding-bottom:10px; border-bottom:1px solid #999; background:#999; color:#fff;}
 
 article.post .entry-main .entry-header .entry-thumbnail img.attachment-post-thumbnail {width:150px;}
+article.post, article.page {border-bottom:2px double #999;}
 
 #content .woocommerce .cart thead tr th {text-align:center;}
 #content .woocommerce .cart tbody tr.cart_item td {vertical-align:middle; border:1px solid #efefef; text-align:center;}

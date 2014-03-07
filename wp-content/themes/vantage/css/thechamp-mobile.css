@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+	header#masthead .main-navigation ul li a, header#masthead .main-navigation ul li a > * {padding:5px 10px;}
+	.metaslider .caption-wrap .caption {padding-top:2px; padding-bottom:2px; font-size:12px; line-height:18px}
+	#mbt-container .mbt-book .mbt-book-title a {font-size:20px;}
+	#mbt-container .mbt-book .mbt-book-images {width:50%;}
+	#mbt-container .mbt-book .mbt-book-right {width:100%;}
+	#mbt-container .mbt-book .mbt-book-socialmedia-badges {padding-left:0px; float:left;}
+	#mbt-container .mbt-book .mbt-book-title, #mbt-container .mbt-book .mbt-book-price, #mbt-container .mbt-book .mbt-book-meta,
+		#mbt-container .mbt-book .mbt-book-blurb, #mbt-container .mbt-book .mbt-book-buybuttons {float:left; margin-left:0px;}
+	#mbt-container .mbt-book .mbt-book-title a:hover {font-size: 20px; text-decoration: underline;}
+	body.responsive .full-container #container {position:relative; float:left;}
+	body.responsive .full-container #secondary, #content ul.products, body.responsive.woocommerce-page #container ul.products li.product {float:left;}
+	#content ul.products {margin-left:0px;}
+	#content .woocommerce .cart thead tr th {font-size:10px;}
+	#content .woocommerce .cart tbody tr.cart_item td a, #content .woocommerce .cart tbody tr.cart_item td span {font-size:11px;}
+	#content .woocommerce .cart tbody tr.cart_item td a.remove {font-size:16px;}
+}

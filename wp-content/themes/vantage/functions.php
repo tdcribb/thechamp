@@ -369,3 +369,15 @@ function vantage_responsive_header(){
 	}
 }
 add_action('wp_head', 'vantage_responsive_header');
+
+
+// *****START OF CUSTOM CODE***** //
+add_filter( 'show_admin_bar', '__return_false' );
+
+
+
+
+
+
+
+
