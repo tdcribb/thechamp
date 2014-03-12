@@ -25,6 +25,12 @@ aside.widget {padding:2px; background:#efefef;}
 #pg-home-1 .panel .widget-title, #pg-home-1 .panel .textwidget {text-align:center;}
 #pg-home-1 .panel .widget-title {padding-top:10px; padding-bottom:10px; border-bottom:1px solid #999; background:#999; color:#fff;}
 
+.woocommerce .widget_shopping_cart_content ul.cart_list li {width:100%;}
+.woocommerce .widget_shopping_cart_content ul.cart_list li a img {float:left;}
+.woocommerce .widget_shopping_cart_content ul.cart_list li span.amount {float:right;}
+
+.widget ul.product_list_widget li {border:1px solid #999; padding:1px; width:49%;}
+
 article.post .entry-main .entry-header .entry-thumbnail img.attachment-post-thumbnail {width:150px;}
 article.post, article.page {border-bottom:2px double #999;}
 
@@ -32,8 +38,9 @@ article.post, article.page {border-bottom:2px double #999;}
 #content .woocommerce .cart tbody tr.cart_item td {vertical-align:middle; border:1px solid #efefef; text-align:center;}
 #content .woocommerce .cart tbody tr.cart_item td.product-remove a {color:#800;}
 #content .woocommerce .cart tbody tr td.actions input.button {margin-top:25px;}
-#content .woocommerce .checkout .col-1, #content .woocommerce .checkout .col-2 {margin-bottom:25px; padding-bottom:25px; border-bottom:2px solid #999;}
-#content .woocommerce .checkout .col-1 .woocommerce-billing-fields p {width:50%;}
+#content .woocommerce .checkout .col-1, #content .woocommerce .checkout .col-2 {margin-bottom:25px; padding-bottom:25px; border-bottom:2px solid #999;
+	width:100%; }
+#content .woocommerce .checkout .col-1 .woocommerce-billing-fields p {width:48%;}
 #content .woocommerce .checkout .col-1 .woocommerce-billing-fields p label {width:100%;}
 #content .woocommerce .checkout .col-1 .woocommerce-billing-fields p input, #content .woocommerce .checkout .col-1 .woocommerce-billing-fields p select {width:100%;}
 #content .woocommerce .checkout .col-2 .woocommerce-shipping-fields p textarea {width:100%;}
