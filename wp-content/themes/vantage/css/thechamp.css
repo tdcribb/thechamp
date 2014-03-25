@@ -22,8 +22,9 @@ header#masthead .main-navigation ul li a .icon {display:none;}
 
 aside.widget {padding:2px; background:#efefef;}
 #pg-home-1 .panel {background:#efefef;}
-#pg-home-1 .panel .widget-title, #pg-home-1 .panel .textwidget {text-align:center;}
+#pg-home-1 .panel .widget-title, #pg-home-1 .panel .textwidget, #pg-home-1 .widget_siteorigin-panels-image {text-align:center;}
 #pg-home-1 .panel .widget-title {padding-top:10px; padding-bottom:10px; border-bottom:1px solid #999; background:#999; color:#fff;}
+#pg-home-1 .widget_siteorigin-panels-image 
 
 .woocommerce .widget_shopping_cart_content ul.cart_list li {width:100%;}
 .woocommerce .widget_shopping_cart_content ul.cart_list li a img {float:left;}
